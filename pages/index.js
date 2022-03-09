@@ -185,7 +185,7 @@ function Home({ changeTheme, theme }) {
               <Header changeTheme={ changeTheme } />
             </div>
             <div className={ classes.cardsContainer }>
-              { hideMultichain === '1' && <MultiChain closeMultichain={ closeMultichain } /> }
+              {/*{ hideMultichain === '0' && <MultiChain closeMultichain={ closeMultichain } /> }*/}
               {
                 data && data.filter((chain) => {
                   if(search === '') {
